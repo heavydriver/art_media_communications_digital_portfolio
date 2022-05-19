@@ -1,1 +1,1 @@
-## My Digital Art Portfolio
+**My Digital Art Portfolio**
