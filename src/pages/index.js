@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Acomplishments from "../components/Acomplishments/Acomplishments";
 import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
 import Hero from "../components/Hero/Hero";
@@ -11,6 +12,14 @@ import { Section } from "../styles/GlobalComponents";
 const Home = () => {
   return (
     <>
+      <Head>
+        <title>Portfolio</title>
+        <meta
+          name="description"
+          content="Varun Mange's digital art portfolio website"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Layout>
         <Section grid>
           <Hero />
