@@ -1,0 +1,65 @@
+export const projects = [
+  {
+    title: "Eyes",
+    description: "First illustrator project.",
+    image: "/images/1.png",
+    tags: ["Illustrator"],
+    source: "https://google.com",
+    visit: "https://google.com",
+    id: 0,
+  },
+  {
+    title: "Personal Logo",
+    description: "Inspired from the Formula 1 logo.",
+    image: "/images/2.png",
+    tags: ["Illustrator", "TinkerCAD"],
+    source: "https://google.com",
+    visit: "https://google.com",
+    id: 1,
+  },
+
+  {
+    title: "Surrealism",
+    description: "Allows the subconscious mind to express itself.",
+    image: "/images/3.png",
+    tags: ["Photoshop"],
+    source: "https://google.com",
+    visit: "https://google.com",
+    id: 2,
+  },
+  {
+    title: "Characters in Objects",
+    description: "Making characters from real objects.",
+    image: "/images/4.png",
+    tags: ["Photoshop"],
+    source: "https://google.com",
+    visit: "https://google.com",
+    id: 3,
+  },
+  {
+    title: "One Point Perspective",
+    description: "This technique adds depth to the image.",
+    image: "/images/5.png",
+    tags: ["Illustrator"],
+    source: "https://google.com",
+    visit: "https://google.com",
+    id: 4,
+  },
+  {
+    title: "Concept Board",
+    description: "A futuristic concept car.",
+    image: "/images/6.png",
+    tags: ["Photoshop", "Illustrator"],
+    source: "https://google.com",
+    visit: "https://google.com",
+    id: 5,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2017, text: "Started my journey" },
+  { year: 2018, text: "Worked as a freelance developer" },
+  { year: 2019, text: "Founded JavaScript Mastery" },
+  { year: 2020, text: "Shared my projects with the world" },
+  { year: 2021, text: "Started my own platform" },
+];
