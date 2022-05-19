@@ -24,7 +24,7 @@ const Acomplishments = () => (
       principles and concepts. All of these concepts have been utilized in my
       digital art projects. I have always tried to make something outside the
       box. I hope to use my digital art skills to be creative and make new
-      pieces of art
+      pieces of art.
     </SectionText>
   </Section>
 );
