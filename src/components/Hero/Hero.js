@@ -19,9 +19,7 @@ const Hero = (props) => (
         Here is a collection of all my digital art work from the Art and Media
         Communications course.
       </SectionText>
-      <Button onClick={() => (window.location = "https://youtube.com")}>
-        Learn More
-      </Button>
+      <Button onClick={() => (window.location = "#about")}>Learn More</Button>
     </LeftSection>
   </Section>
 );
