@@ -38,17 +38,27 @@ export const ScrollDisabler = createGlobalStyle`
 
 export const Img = styled.img`
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 75vh;
+  object-fit: contain;
   overflow: hidden;
   border-radius: 15px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 export const CloseModalButton = styled(MdClose)`
   cursor: pointer;
   position: absolute;
   color: #1f2d47;
-  top: 20px;
+  top: 22px;
   right: 20px;
   width: 32px;
   height: 32px;
