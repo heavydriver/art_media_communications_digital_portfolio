@@ -20,7 +20,7 @@ const Acomplishments = () => (
     <SectionDivider />
     <SectionTitle main>Conclusion</SectionTitle>
     <SectionText>
-      The Art and Media Communication course taught me a variety of art
+      The Art and Media Communications course taught me a variety of art
       principles and concepts. All of these concepts have been utilized in my
       digital art projects. I have always tried to make something outside the
       box. I hope to use my digital art skills to be creative and make new
